@@ -3,6 +3,11 @@
 History
 -------
 
+1.3.0 (2023-08-17)
+++++++++++++++++++
+
+- Added cronjob expression support. See #581. Thanks @lerome
+
 1.2.0 (2023-04-10)
 ++++++++++++++++++
 

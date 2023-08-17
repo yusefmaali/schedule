@@ -2,8 +2,8 @@ import codecs
 from setuptools import setup
 
 
-SCHEDULE_VERSION = "1.2.0"
-SCHEDULE_DOWNLOAD_URL = "https://github.com/dbader/schedule/tarball/" + SCHEDULE_VERSION
+SCHEDULE_VERSION = "1.3.0"
+SCHEDULE_DOWNLOAD_URL = "https://github.com/yusefmaali/schedule/tarball/" + SCHEDULE_VERSION
 
 
 def read_file(filename):
@@ -15,16 +15,18 @@ def read_file(filename):
 
 
 setup(
-    name="schedule",
+    name="schedule-cronjob",
     packages=["schedule"],
     package_data={"schedule": ["py.typed"]},
     version=SCHEDULE_VERSION,
-    description="Job scheduling for humans.",
+    description="Job scheduling for humans. With cronjob support.",
     long_description=read_file("README.rst"),
     license="MIT",
     author="Daniel Bader",
     author_email="mail@dbader.org",
-    url="https://github.com/dbader/schedule",
+    maintainer="Yusef Maali",
+    maintainer_email="contact@yusefmaali.net",
+    url="https://github.com/yusefmaali/schedule",
     download_url=SCHEDULE_DOWNLOAD_URL,
     keywords=[
         "schedule",
@@ -35,6 +37,8 @@ setup(
         "cron",
         "scheduler",
         "job scheduling",
+        "cronjob scheduling",
+        "cronjob"
     ],
     classifiers=[
         "Intended Audience :: Developers",

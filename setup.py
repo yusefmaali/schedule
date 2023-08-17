@@ -2,8 +2,8 @@ import codecs
 from setuptools import setup
 
 
-SCHEDULE_VERSION = "1.3.0"
-SCHEDULE_DOWNLOAD_URL = "https://github.com/yusefmaali/schedule/tarball/" + SCHEDULE_VERSION
+SCHEDULE_VERSION = "1.3.1"
+SCHEDULE_DOWNLOAD_URL = "https://github.com/yusefmaali/schedule-cronjob/tarball/" + SCHEDULE_VERSION
 
 
 def read_file(filename):
@@ -26,7 +26,7 @@ setup(
     author_email="mail@dbader.org",
     maintainer="Yusef Maali",
     maintainer_email="contact@yusefmaali.net",
-    url="https://github.com/yusefmaali/schedule",
+    url="https://github.com/yusefmaali/schedule-cronjob",
     download_url=SCHEDULE_DOWNLOAD_URL,
     keywords=[
         "schedule",
@@ -37,8 +37,8 @@ setup(
         "cron",
         "scheduler",
         "job scheduling",
-        "cronjob scheduling",
-        "cronjob"
+        "cronjob",
+        "cronjob scheduling"
     ],
     classifiers=[
         "Intended Audience :: Developers",

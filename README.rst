@@ -11,6 +11,12 @@
 .. image:: https://img.shields.io/pypi/v/schedule.svg
         :target: https://pypi.python.org/pypi/schedule
 
+| The current project is a fork of the incredible work of Daniel Bader (https://github.com/dbader/schedule) and all contributors (see AUTHORS.rst).
+| I was interested in having support for cronjob expression in the 'schedule' library engine.
+| There's an interesting pull request from Romain Michel (https://github.com/dbader/schedule/pull/581) that implements exactly what I need.
+| After having reviewed and tested the work of Romain, I've merged his pull request into the 'schedule' project and published on pypi under the name of 'schedule-cronjob' (https://pypi.org/project/schedule-cronjob/)
+|
+
 Python job scheduling for humans. Run Python functions (or any other callable) periodically using a friendly syntax.
 
 - A simple to use API for scheduling jobs, made for humans.
@@ -24,7 +30,7 @@ Usage
 
 .. code-block:: bash
 
-    $ pip install schedule
+    $ pip install schedule-cronjob
 
 .. code-block:: python
 
@@ -67,6 +73,6 @@ Daniel Bader - `@dbader_org <https://twitter.com/dbader_org>`_ - mail@dbader.org
 
 Inspired by `Adam Wiggins' <https://github.com/adamwiggins>`_ article `"Rethinking Cron" <https://adam.herokuapp.com/past/2010/4/13/rethinking_cron/>`_ and the `clockwork <https://github.com/Rykian/clockwork>`_ Ruby module.
 
-Distributed under the MIT license. See `LICENSE.txt <https://github.com/dbader/schedule/blob/master/LICENSE.txt>`_ for more information.
+Distributed under the MIT license. See `LICENSE.txt <https://github.com/yusefmaali/schedule/blob/master/LICENSE.txt>`_ for more information.
 
-https://github.com/dbader/schedule
+https://github.com/yusefmaali/schedule
